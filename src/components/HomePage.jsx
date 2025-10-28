@@ -22,6 +22,7 @@ const HomePage = () => {
     logout();
     setIsAuthenticated(false);
     setDropdownOpen(false);
+    
     navigate("/login");
   };
 
