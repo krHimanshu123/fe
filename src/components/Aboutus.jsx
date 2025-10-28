@@ -39,6 +39,7 @@ const AboutUs = () => {
           <img src="accessories.jpg" alt="Accessories" />
           <h3>Accessories</h3>
           <p>Find the best accessories like pendrives, keyboards, and more.</p>
+          
         </div>
         </Link>
       </div>
