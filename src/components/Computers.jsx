@@ -53,6 +53,7 @@ const Computers = () => {
           <p>No computers available.</p>
         )}
       </div>
+      
     </div>
   );
 };
