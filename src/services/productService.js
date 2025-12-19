@@ -8,6 +8,7 @@ export const getProducts = async (category = "") => {
     const response = await axios.get(`${API_BASE_URL}/${category}`);
     return response.data;  // Return products array
   } catch (error) {
+    
     console.error("Error fetching products:", error);
     return []; // Return empty array on error
   }
