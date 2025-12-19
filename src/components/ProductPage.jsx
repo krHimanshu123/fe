@@ -30,6 +30,7 @@ const ProductPage = ({ category }) => {
   };
 
   return (
+    
     <div className="product-container">
       <h2>
         {category
