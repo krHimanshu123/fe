@@ -12,6 +12,7 @@ const Mobiles = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    
     const fetchProducts = async () => {
       const data = await getProducts("mobiles"); // Fetch only mobile category
       setProducts(data);
