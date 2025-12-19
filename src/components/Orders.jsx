@@ -13,6 +13,7 @@ const PaymentHistory = () => {
       ) : (
         <ul>
           {paymentHistory.map((transaction) => (
+          
             <li key={transaction.id}>
               <p><strong>Transaction Date:</strong> {transaction.date}</p>
               <ul>
