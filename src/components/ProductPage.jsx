@@ -9,6 +9,7 @@ const ProductPage = ({ category }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
+    
     const fetchProducts = async () => {
       try {
         const data = await getProducts(category || "");
